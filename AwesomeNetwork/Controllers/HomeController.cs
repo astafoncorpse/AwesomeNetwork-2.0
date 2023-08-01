@@ -28,6 +28,7 @@ namespace AwesomeNetwork.Controllers
             return View(new MainViewModel());
         }
 
+
         [Route("[action]")]
         public IActionResult Privacy()
         {

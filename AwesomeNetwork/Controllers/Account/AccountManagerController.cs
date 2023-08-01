@@ -320,5 +320,6 @@ namespace AwesomeNetwork.Controllers.Account
             var model = await GenerateChat(id);
             return View("Chat", model);
         }
+        
     }
 }
